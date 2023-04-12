@@ -1,7 +1,7 @@
 console.log("%c HI", "color: firebrick");
 
 window.addEventListener("DOMContentLoaded", () => {
-  //   displayImages();
+    displayImages();
   displayBreed(null); // Call displayBreed() with null to display all breeds initially
   const dropdown = document.getElementById("breed-dropdown");
   dropdown.addEventListener("change", () => {
